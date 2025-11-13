@@ -1,0 +1,24 @@
+{
+    "Factura": {
+        "Numero": "FV-2025-001",
+        "Emisor": {
+            "NIT": "900123456",
+            "RazonSocial": "Tech Solutions S.A.S"
+        },
+        "Receptor": {
+            "NIT": "800987654",
+            "RazonSocial": "Cliente Ejemplo S.A."
+        },
+        "ValorTotal": 1500000,
+        "Moneda": "COP",
+        "FormaPago": "Transferencia",
+        "Detalle": [
+            {
+                "Descripcion": "Servicio de desarrollo de software",
+                "Cantidad": 1,
+                "ValorUnitario": 1500000
+            }
+        ],
+        "FirmaDigital": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn..."
+    }
+}

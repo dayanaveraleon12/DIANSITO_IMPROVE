@@ -1,0 +1,60 @@
+
+{
+    "FacturaElectronica": {
+        "Ambiente": 2,
+        "Emisor": {
+            "NIT": "901234567",
+            "RazonSocial": "Empresa S.A.S.",
+            "Direccion": "Calle 123 #45-67",
+            "Municipio": "Bogotá",
+            "RegimenFiscal": "48"
+        },
+        "Receptor": {
+            "TipoIdentificacion": "31",
+            "NumeroIdentificacion": "123456789",
+            "RazonSocial": "Cliente S.A.",
+            "Email": "cliente@correo.com"
+        },
+        "Documento": {
+            "Tipo": "01",
+            "Numero": "F001-000000123",
+            "Fecha": "2025-11-12",
+            "Hora": "15:44:34-05:00",
+            "Nota": "Venta de productos"
+        },
+        "Numeracion": {
+            "Prefijo": "F001",
+            "Desde": 1,
+            "Hasta": 999999,
+            "ClaveTecnica": "ABCDEF1234567890",
+            "Autorizacion": "900123456789012345678901234567",
+            "FechaInicio": "2025-11-01",
+            "FechaFinal": "2026-10-31"
+        },
+        "Software": {
+            "Identificacion": "SOFTWARE-001",
+            "PIN": "123456"
+        },
+        "Items": [
+            {
+                "Codigo": "001",
+                "Descripcion": "Producto A",
+                "Cantidad": 2,
+                "ValorUnitario": 100.0,
+                "ValorTotal": 200.0,
+                "Impuestos": [
+                    {
+                        "Tipo": "IVA",
+                        "Porcentaje": 19.0,
+                        "Valor": 38.0
+                    }
+                ]
+            }
+        ],
+        "Totales": {
+            "Subtotal": 200.0,
+            "Impuestos": 38.0,
+            "Total": 238.0
+        }
+    }
+}
